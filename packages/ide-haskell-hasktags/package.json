@@ -1,0 +1,83 @@
+{
+  "_from": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+  "_id": "ide-haskell-hasktags@0.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-wpQ9fzJ2cNCxrCts9ReVt6GkwXWSgp60sCsNgQfgHya122/GKCQPMyrSK5lNsy8L6qWrwDm6H8kE2BKGbcdnFw==",
+  "_location": "/ide-haskell-hasktags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+  "_shasum": "096f854b592175daed28c2a95d7992c836db9bdd",
+  "_spec": "https://www.atom.io/api/packages/ide-haskell-hasktags/versions/0.0.17/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022122-5348-ghej9v.o3i5o",
+  "activationHooks": [
+    "language-haskell:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/atom-haskell/ide-haskell-hasktags/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "ide-haskell-upi": {
+      "description": "Uses ide-haskell's unified pluggable interface",
+      "versions": {
+        "^0.3.0": "consumeUPI"
+      }
+    }
+  },
+  "dependencies": {
+    "@atom-haskell/hasktags-js": "^0.1.2",
+    "atom-select-list": "^0.7.2",
+    "etch": "^0.14.0",
+    "minimatch": "^3.0.4",
+    "tslib": "^1.11.1"
+  },
+  "deprecated": false,
+  "description": "Hasktags-powered replacement for symbols-view on Haskell projects",
+  "devDependencies": {
+    "@types/atom": "^1.40.1",
+    "@types/minimatch": "^3.0.3",
+    "atom-haskell-tslint-rules": "^0.2.2",
+    "prettier": "^1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3",
+    "typescript-tslint-plugin": "^0.5.5"
+  },
+  "engines": {
+    "atom": ">=1.23.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-haskell/ide-haskell-hasktags#readme",
+  "keywords": [
+    "ide-haskell",
+    "ide",
+    "haskell",
+    "hasktags",
+    "symbols-view"
+  ],
+  "license": "MIT",
+  "main": "./lib/ide-haskell-hasktags",
+  "name": "ide-haskell-hasktags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-haskell/ide-haskell-hasktags.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "lint": "tslint --project .",
+    "prettier": "prettier --write 'src/**/*.ts?(x)' 'spec/**/*.ts?(x)'",
+    "prettier-check": "prettier -l 'src/**/*.ts' 'spec/**/*.ts'",
+    "test": "npm run typecheck && npm run lint && npm run prettier-check",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "version": "0.0.17"
+}

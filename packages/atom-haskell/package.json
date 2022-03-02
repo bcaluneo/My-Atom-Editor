@@ -1,0 +1,63 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+  "_id": "atom-haskell@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-egjMF3mtx+//ciudqVKnVj9HKmZs9PqFanTPo0LouxNKIyet+nn9Kk4fgv2HY6hNF9Z0GATdN8kVm5PgdUw9aw==",
+  "_location": "/atom-haskell",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+  "_shasum": "517c7e18da821d29fd1b7fbe685e47cfc8b1b811",
+  "_spec": "https://www.atom.io/api/packages/atom-haskell/versions/0.4.0/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022122-20728-1tdg6wh.1cur",
+  "bugs": {
+    "url": "https://github.com/Tehnix/atom-haskell/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-package-deps": "4.6.0"
+  },
+  "deprecated": false,
+  "description": "Curated set of packages for Haskell development with Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Tehnix/atom-haskell#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/atom-haskell",
+  "name": "atom-haskell",
+  "package-deps": [
+    "language-haskell",
+    "ide-haskell",
+    "ide-haskell-cabal",
+    "haskell-ghc-mod",
+    "autocomplete-haskell",
+    "ide-haskell-hasktags",
+    "ide-haskell-hoogle",
+    "ide-haskell-repl",
+    "language-haskell-scoped",
+    "haskell-pointfree",
+    "hasklig",
+    "atom-beautify",
+    "haskell-scry",
+    "language-yaml",
+    "linter",
+    "linter-ui-default"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tehnix/atom-haskell.git"
+  },
+  "version": "0.4.0"
+}

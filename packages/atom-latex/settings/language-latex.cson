@@ -1,0 +1,20 @@
+'.text.tex.latex':
+  'editor':
+    'softTabs': true
+    'softWrap': true
+    'commentStart': '% '
+  'autocomplete-plus':
+    'extraWordCharacters': '-:_/'
+  'bracket-matcher':
+    'autocompleteCharacters': [
+      '$$',
+      '``',
+      '{}',
+      '()',
+      '[]',
+      '""',
+      '\'\''
+    ]
+'.text.tex.tex':
+  'editor':
+    'commentStart': '% '

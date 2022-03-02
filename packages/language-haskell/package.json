@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+  "_id": "language-haskell@1.24.0",
+  "_inBundle": false,
+  "_integrity": "sha512-62Caz1Odp4gH4gWLvwIUFptG6gGuXestSICv8sPpps8pYL1BcnCRop08207iV7jAMN48SPfywVELxhf8evHYyQ==",
+  "_location": "/language-haskell",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+  "_shasum": "b3ed032ded44e1bcfc84ee75438a15d6383d94f5",
+  "_spec": "https://www.atom.io/api/packages/language-haskell/versions/1.24.0/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022122-12592-10asyim.qt8w",
+  "bugs": {
+    "url": "https://github.com/atom-haskell/language-haskell/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Haskell language support in Atom",
+  "devDependencies": {
+    "atom-grammar-test": "^0.6.4",
+    "clone": "^1.0.2",
+    "coffee-script": "~1.9.0",
+    "season": "^2.0.0",
+    "underscore-plus": "^1.6.6"
+  },
+  "engines": {
+    "atom": ">=1.8.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-haskell/language-haskell#readme",
+  "license": "MIT",
+  "name": "language-haskell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-haskell/language-haskell.git"
+  },
+  "version": "1.24.0"
+}

@@ -1,0 +1,51 @@
+{
+  "_from": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+  "_id": "haskell-pointfree@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KCUKYSE0c3yIAa9+H0sfJ7AZKNcSwr4VAwquwVvlhXIA93SA+uTKxKBmPbfvEYY+3quFtQDIvWq1hEH2HUpI9Q==",
+  "_location": "/haskell-pointfree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+  "_shasum": "81ca44cd549a6238c73450f1b055e062898fd3d0",
+  "_spec": "https://www.atom.io/api/packages/haskell-pointfree/versions/0.2.0/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022125-18868-lbvnkt.777bp",
+  "bugs": {
+    "url": "https://github.com/atom-haskell/atom-haskell-pointfree/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  },
+  "deprecated": false,
+  "description": "Convert selection to pointfree or pointful representation",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-haskell/atom-haskell-pointfree#readme",
+  "keywords": [
+    "ide-haskell",
+    "ide",
+    "haskell",
+    "pointfree",
+    "pointful"
+  ],
+  "license": "MIT",
+  "main": "./lib/haskell-pointfree",
+  "name": "haskell-pointfree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-haskell/atom-haskell-pointfree.git"
+  },
+  "version": "0.2.0"
+}

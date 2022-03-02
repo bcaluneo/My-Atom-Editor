@@ -1,0 +1,67 @@
+{
+  "_from": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+  "_id": "ide-haskell-hoogle@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-KcE3CQJ+81ajd8xPaE8lguOOKBPmuQksUUBT0qAkvrnCVkxwVIzMGKp7+3KpQYWm/LD5h0VsZa00WaTPNysQ+w==",
+  "_location": "/ide-haskell-hoogle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+  "_shasum": "ac31318653e39c7cee445f2d8415a6d4c1e17ec3",
+  "_spec": "https://www.atom.io/api/packages/ide-haskell-hoogle/versions/0.1.3/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022122-17860-1j1miys.t5la",
+  "bugs": {
+    "url": "https://github.com/atom-haskell/ide-haskell-hoogle/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-highlight": "^0.5.0",
+    "atom-select-list": "^0.8.0",
+    "etch": "^0.14.1",
+    "tslib": "^2"
+  },
+  "deprecated": false,
+  "description": "Show hoogle information for symbol under cursor",
+  "deserializers": {
+    "HoogleDocView": "createDocView",
+    "HoogleWebView": "createWebView"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.40.9",
+    "@types/node": "^14.14.34",
+    "atom-haskell-tslint-rules": "^0.2.2",
+    "electron": "^6",
+    "tslint": "^5",
+    "typescript": "^4",
+    "typescript-tslint-plugin": "^1.0.1"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-haskell/ide-haskell-hoogle#readme",
+  "keywords": [
+    "ide-haskell",
+    "ide",
+    "haskell",
+    "help",
+    "hoogle"
+  ],
+  "license": "MIT",
+  "main": "./lib/ide-haskell-hoogle",
+  "name": "ide-haskell-hoogle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-haskell/ide-haskell-hoogle.git"
+  },
+  "version": "0.1.3"
+}
