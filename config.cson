@@ -12,6 +12,9 @@
   "autocomplete-haskell":
     hideHintPanelIfEmpty: false
   core:
+    disabledPackages: [
+      "terminal-plus"
+    ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
     themes: [
@@ -40,5 +43,8 @@
   "linter-ui-default":
     hidePanelWhenEmpty: false
     panelHeight: 177
+  runner:
+    scopes:
+      js: "node"
   welcome:
     showOnStartup: false

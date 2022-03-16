@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+  "_id": "atom-overtype-mode@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KLJ/FvvoA0sAuewXL7cBl8AOgyrdm7pAzGgXnJ3+Cqvd5CMEIf5WPijyIf9ejvBTxp3WNIzcuoHfVczsFKUzGA==",
+  "_location": "/atom-overtype-mode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+  "_shasum": "fb18fc8ee04e9ab12f344817e64800739bb9755d",
+  "_spec": "https://www.atom.io/api/packages/atom-overtype-mode/versions/0.4.0/tarball",
+  "_where": "C:\\Users\\Brendan\\AppData\\Local\\Temp\\apm-install-dir-2022210-16024-1pc3zcd.mvag",
+  "activationCommands": {
+    "atom-text-editor": "overtype-mode:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/brunetton/atom-overtype-mode/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Provides overtype mode for Atom",
+  "engines": {
+    "atom": ">=1.13 <2.0.0"
+  },
+  "homepage": "https://github.com/brunetton/atom-overtype-mode#readme",
+  "license": "MIT",
+  "main": "./lib/atom-overtype-mode",
+  "name": "atom-overtype-mode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunetton/atom-overtype-mode.git"
+  },
+  "version": "0.4.0"
+}

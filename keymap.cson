@@ -33,3 +33,6 @@
 
 'atom-text-editor:not([mini])':
     'ctrl-shift-l': 'atom-latex:preview-tab'
+
+'atom-text-editor':
+    'ctrl-d': 'editor:delete-line'
