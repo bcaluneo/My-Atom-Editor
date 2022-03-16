@@ -36,3 +36,4 @@
 
 'atom-text-editor':
     'ctrl-d': 'editor:delete-line'
+    'ctrl-shift-t':'fuzzy-finder:toggle-file-finder'
